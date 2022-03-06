@@ -1,0 +1,21 @@
+.root {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+
+.row {
+  display: flex;
+}
+
+.box {
+  border: 1px solid;
+  height: 100px;
+  width: 100px;
+  transition: background-color 0.5s ease-in;
+}
+
+.blue {
+  background-color: blue;
+}
