@@ -1,6 +1,14 @@
 import { useState } from 'react';
 import './App.css';
 
+/**
+ * QUESTION:
+ * You will be asked to recreate the UI below.
+ * When the mouse is clicked and dragged,
+ * any intersecting boxes will be highlighted blue.
+ * On mouse up, the selection highlight disappears.
+ */
+
 function App() {
   let [selectedRows, setSelectedRows] = useState({
     1: false,
